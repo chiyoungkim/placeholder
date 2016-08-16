@@ -5,18 +5,19 @@
 <!--hide
 
 var password;
-bool logged = false;
 var pass1="3";
 
 password=prompt('What was the solution?',' ');
 
-if (password != pass1)
+
+if (password == null) {
+	window.location="http://chiyoung.kim/puzz/part2.html";
+}
+else if (password != pass1)
    {
     window.location="http://chiyoung.kim/puzz/stegosaurus.html";
-    }
-else {
-	logged = true;
 }
+
 //-->
 </SCRIPT>
 <meta charset="utf-8" />
