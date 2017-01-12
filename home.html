@@ -66,10 +66,18 @@ Chiyoung Kim
 <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
 <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in" data-anim-type="fade-in-up">
 
-<h1>Chiyoung Kim</h1>
-<p>Engineer, Entrepreneur, Musician</p>
-<p>Harvard College 2017</p>
-<p>SB - Electrical Engineering</p>
+<h1>
+<div class="text-body">
+	<span id="typed"></span>
+	<span class="typed-cursor"></span>
+</div>
+</h1>
+<div class="text-body">
+	<p>
+	<span id="typedsmall"></span>
+	<span class="typed-cursor"></span>
+	</p>
+</div>
 
 </div>
 
@@ -349,6 +357,47 @@ Below are my resume and ways you can contact me.
 <script src="assets/js/animations.min.js"></script>
 <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom-solid.js"></script>
+<script src="assets/js/typed.js"></script>
+<script>
+	$(function(){
+		$("#typed").typed({
+			strings: ["Engineer","Entrepreneur","Musician","Chiyoung Kim"],
+			typeSpeed: 30,
+      callback: function(){
+        shift();
+      }
+		});
+		$("#typedsmall").typed({
+			strings: ["Harvard College 2017 <br><br>Electrical Engineering SB"],
+			typeSpeed: 30,
+      callback: function(){
+        shift();
+      }
+		});
+
+	});
+  function shift(){
+      $(".head-wrap").addClass("shift-text");
+      terminalHeight();
+  }
+
+  function terminalHeight(){
+      var termHeight = $(".terminal-height");
+      var value = termHeight.text();
+      value = parseInt(value);
+      setTimeout(function(){
+          if (value > 10){
+              value = value-1;
+              this.txtValue = value.toString();
+              termHeight.text(this.txtValue);
+              self.terminalHeight();
+          }
+          else{
+              clearTimeout();
+          }
+      }, 10);
+  }
+</script>
 </body>
 
 </html>
