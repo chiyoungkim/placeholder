@@ -69,12 +69,12 @@ Chiyoung Kim
 <h1>
 <div class="text-body">
 	<span id="typed"></span>
+	<span class="typed-cursor"></span>
 </div>
 </h1>
 <div class="text-body">
 	<p>
 	<span id="typedsmall"></span>
-	<span class="typed-cursor"></span>
 	</p>
 </div>
 
@@ -364,8 +364,6 @@ Below are my resume and ways you can contact me.
 			typeSpeed: 30,
       callback: function(){
         shift();
-      }
-		});
 		$("#typedsmall").typed({
 			strings: ["Harvard College 2017 <br><br>Electrical Engineering SB"],
 			typeSpeed: 30,
@@ -373,6 +371,9 @@ Below are my resume and ways you can contact me.
         shift();
       }
 		});
+      }
+		});
+
 
 	});
   function shift(){
