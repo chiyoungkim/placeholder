@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e6deb7-ebed-480e-990a-349569c4a016" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzz/business.html" afterPath="$PROJECT_DIR$/puzz/business.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzz/part2.html" afterPath="$PROJECT_DIR$/puzz/part2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzz/stegosaurus.html" afterPath="$PROJECT_DIR$/puzz/stegosaurus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/puzz/sudoku.html" afterPath="$PROJECT_DIR$/puzz/sudoku.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -208,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486437889780</updated>
-      <workItem from="1486437891800" duration="519000" />
+      <workItem from="1486437891800" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519000" />
+    <option name="totallyTimeSpent" value="621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2902" height="1582" extended-state="6" />
