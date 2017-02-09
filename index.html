@@ -1,133 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js" >
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta name="description" content="" />
-<meta name="author" content="" />
-<!--[if IE]>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<![endif]-->
-<title>Chiyoung Kim</title>
-<link rel="icon"
-	  type="image/png"
-	  href="assets/img/favicon.ico">
-<!-- BOOTSTRAP CORE CSS -->
-<link href="assets/css/bootstrap.css" rel="stylesheet" />
-<!-- ION ICONS STYLES -->
-<link href="assets/css/ionicons.css" rel="stylesheet" />
-<!-- FONT AWESOME ICONS STYLES -->
-<link href="assets/css/font-awesome.css" rel="stylesheet" />
-<!-- FANCYBOX POPUP STYLES -->
-<link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
-<!-- STYLES FOR VIEWPORT ANIMATION -->
-<link href="assets/css/animations.min.css" rel="stylesheet" />
-<!-- CUSTOM CSS -->
-<link href="assets/css/style-solid-black.css" rel="stylesheet" />
-<!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+	<title>Chiyoung Kim</title>
+	<link rel="icon"
+		  type="image/png"
+		  href="assets/img/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-spy="scroll" data-target="#menu-section" >
-<style type="text/css">
-	body { 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-    background-color: rgb(228,79,79); 
-}
-#container {
-	max-width: 100%;
-	max-height: 100%;
-    float: right;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    display:inline-block;
-}
-#container img {
-	display: none;
-}
 
-#container img.active {
-	display: initial;
-}
-#home-text {
-	font-size: 1em;
-	position: absolute;
-	right: 50%;
-	top: 48%;
-}
-.splashimg {
-	max-height: 100vh;
-	max-width: 100vw;
-	right: 0px;
-  	bottom: 0px;
-}
-</style>
-<div id="container">
-	<!--<img class="splashimg active" src="assets/img/hololenssolosplash1.svg"/>-->
-	<img class="splashimg active" src="assets/img/hololenssolosplash2.svg"/>
-	<div id="home-text">
-	<svg width="100%" height="100%" viewBox="0 0 100 20">
-        <text x="0" y="15" fill="white">Chiyoung Kim</text>
-    </svg>
+<body>
+	<div>
+		<div class="container text-center">
+			<h1>
+				<img src="assets/img/Logo2.svg" class="logo">
+				<div class="text-body">
+					<span id="typed"></span>
+					<span id="typedbold"></span>
+					<span class="typed-cursor"></span>
+				</div>
+			</h1>
+			<a href="home.html" class="btn btn-enter">
+				<p class="btn-text">
+					Enter
+				</p>
+			</a>
+		</div>
 	</div>
-	<div id="enterbutton">
-		<a href="home.html" class=" btn button-custom btn-custom-three">
-		<svg width="100%" height="100%" viewBox="0 0 40 20">
-        	<text id="enter" x="3" y="15" fill="white">Enter</text>
-    	</svg>
-		</a>
-	</div>
-</div>
-<!--HOME SECTION END-->
+	<script src="assets/js/jquery-1.11.1.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/typed.js"></script>
+	<script>
+		$(function(){
+			$("#typed").typed({
+				strings: ["Chiyoung <strong>Kim</strong>"],
+				typeSpeed: 30,
+                callback: function(){
+					return elem.siblings('.typed-cursor').remove();
+                }
+			});
+		});
+		function shift(){
+			$(".head-wrap").addClass("shift-text");
+			terminalHeight();
+		}
 
-<div class="footer-bottom" >
-<style type="text/css">
-	#footertext {
-		position: fixed;
-		top: 0;
-		left: 0;
-	}
-</style>
-	<div id="footertext">
-		<!--© 2016 Chiyoung Kim. All rights reserved.-->
-		<!--Using Light Wave Theme by DesignBootstrap-->
-	</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-</section>
-<!--CONTACT SECTION END-->
-
-<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
-<!-- CORE JQUERY -->
-<script src="assets/js/jquery-1.11.1.js"></script>
-<!-- BOOTSTRAP SCRIPTS -->
-<script src="assets/js/bootstrap.js"></script>
-<!-- EASING SCROLL SCRIPTS PLUGIN -->
-<script src="assets/js/vegas/jquery.vegas.min.js"></script>
-<!-- VEGAS SLIDESHOW SCRIPTS -->
-<script src="assets/js/jquery.easing.min.js"></script>
-<!-- FANCYBOX PLUGIN -->
-<script src="assets/js/source/jquery.fancybox.js"></script>
-<!-- ISOTOPE SCRIPTS -->
-<script src="assets/js/jquery.isotope.js"></script>
-<!-- VIEWPORT ANIMATION SCRIPTS   -->
-<script src="assets/js/appear.min.js"></script>
-<script src="assets/js/animations.min.js"></script>
-<!-- CUSTOM SCRIPTS -->
-<script src="assets/js/custom-splash.js"></script>
+		function terminalHeight(){
+			var termHeight = $(".terminal-height");
+			var value = termHeight.text();
+			value = parseInt(value);
+			setTimeout(function(){
+				if (value > 10){
+					value = value-1;
+					this.txtValue = value.toString();
+					termHeight.text(this.txtValue);
+					self.terminalHeight();
+				}
+				else{
+					clearTimeout();
+				}
+			}, 10);
+		}
+	</script>
 </body>
-
 </html>

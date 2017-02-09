@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); /* FREE GOOGLE FONT */
+
+body {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.logo {
+    display: inline;
+    padding: 20px;
+}
+
+.logo-container {
+    padding-bottom: 20px;
+}
+
+.btn-enter {
+    font-size: 2em;
+    background-color: #ffd42a;
+    color: black;
+    height: 75px;
+    width: 150px;
+    padding: 0px;
+
+    transition: all .2s  ease-in-out;
+}
+
+.btn-enter:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffd42a;
+    background-color: #ffeeaa;
+}
+
+.btn-text {
+    line-height: 75px;
+}
+
+.text-body {
+    padding: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.container {
+    padding: 80px 120px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.nav-pills {
+    font-size: 3em;
+    text-align: center;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover {
+    background-color: white;
+    color: #ffd42a;
+}
+
+.nav-pills li a {
+    color: gray;
+}
+
+.nav-pills li a:hover {
+    background-color: white;
+    color: #ffeeaa;
+}
+
+.nav-pills #resume {
+    background-color: #ffeeaa;
+    transition: all .5s ease-in-out;
+}
+
+.nav-pills #resume:hover {
+    background-color: #ffd42a;
+    color: gray;
+}
+
+.tab-pane {
+    padding-top: 20px;
+}
+
+.portfolio {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
+    display: inline;
+}
+
+.pf-panel {
+    transition: all .2s ease-in-out;
+
+    background-color: white;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffd42a;
+    border-radius: 3px;
+
+    margin: 0;
+
+
+}
+
+.pf-sub {
+    border-width: 1px;
+    border-color: #ffd42a;
+    border-radius: 0px;
+    font-size: 2em;
+}
+
+.pf-panel:hover {
+    transform: scale(1.05);
+}
+
+.pf-content {
+    color: black;
+}
+
+.pf-group {
+
+}
+
+.portfolio-break {
+    font-size: 2em;
+    padding-bottom: 10px;
+
+    background-color: #ffeeaa;
+
+    text-align: center;
+
+    height: 50px;
+    line-height: 50px;
+}
+
+.about {
+    font-size: 2em;
+}
+
+.contact-link {
+    font-size: 1em;
+    color: black;
+}
+
+.contact-link:hover {
+    color: #ffd42a;
+}

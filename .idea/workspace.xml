@@ -2,7 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83e6deb7-ebed-480e-990a-349569c4a016" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/style-solid-black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/artist/breakers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/engineer/hololensgroup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/entrepreneur/nicgroup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/hololenssolo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/hololenssolosplash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/hololenssolosplash1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/hololenssolosplash2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/puzz/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/puzz/puzz2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/puzz/sudoku.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/student/harvard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/animations.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/appear.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/business.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom-solid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom-splash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.isotope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/part2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/fancybox_buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/jquery.fancybox-buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/jquery.fancybox-buttons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/jquery.fancybox-media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/jquery.fancybox-thumbs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/helpers/jquery.fancybox-thumbs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/source/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/stegosaurus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/images/loading.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/jquery.vegas.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/jquery.vegas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/vegas/overlays/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/stegoassets.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/puzz/business.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/puzz/part2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/puzz/stegosaurus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/puzz/sudoku.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sandbox.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/Logo2.svg" afterPath="$PROJECT_DIR$/assets/img/Logo2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/typed.js" afterPath="$PROJECT_DIR$/assets/js/typed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,62 +94,42 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="business.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puzz/business.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="part2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puzz/part2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stegosaurus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puzz/stegosaurus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sudoku.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/puzz/sudoku.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="87">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="186" column="3" lean-forward="true" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -82,18 +137,42 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>text-body</find>
+      <find>text-</find>
+      <find>nav-</find>
+      <find>tab-content</find>
+      <find>tab</find>
+      <find>border-color</find>
+      <find>border-style</find>
+      <find>pf-pane</find>
+      <find>padding-top</find>
+      <find>github</find>
+      <find>btn</find>
+      <find>button</find>
+      <find>body</find>
+      <find>index2</find>
+      <find>resume</find>
+      <find>src=&quot;assets/img/student/harvard.jpg&quot;src=&quot;assets/img/portfolio/harvard.jpg&quot;</find>
+      <find>pf-panel</find>
+      <find>font-size</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/puzz/business.html" />
         <option value="$PROJECT_DIR$/puzz/part2.html" />
         <option value="$PROJECT_DIR$/puzz/stegosaurus.html" />
         <option value="$PROJECT_DIR$/puzz/sudoku.html" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -104,10 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="2902" />
-    <option name="height" value="1582" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -124,39 +202,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="puzz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -166,11 +231,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chiyoungkim.github.io" />
+              <option name="myItemId" value="chiyoungkim.github.io - V 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -184,14 +249,71 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chiyoungkim.github.io" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -204,33 +326,52 @@
       <option name="presentableId" value="Default" />
       <updated>1486437889780</updated>
       <workItem from="1486437891800" duration="621000" />
+      <workItem from="1486606253550" duration="16026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621000" />
+    <option name="totallyTimeSpent" value="16647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2902" height="1582" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119444445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23799582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23799582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -243,17 +384,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
+        <state relative-caret-position="442">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>
@@ -261,7 +394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/puzz/business.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="204">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
@@ -269,7 +402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/puzz/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="204">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
@@ -277,7 +410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/puzz/stegosaurus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="204">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
@@ -285,8 +418,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/puzz/sudoku.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzz/sudoku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzz/stegosaurus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzz/part2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puzz/business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style-solid-black.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="186" column="3" lean-forward="true" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/ChiyoungKimLogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/ionicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1301" column="31" lean-forward="false" selection-start-line="1301" selection-start-column="31" selection-end-line="1301" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="128" column="54" lean-forward="true" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="73" column="36" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
         </state>
       </provider>
