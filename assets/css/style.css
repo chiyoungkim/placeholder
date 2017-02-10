@@ -6,8 +6,10 @@ body {
 }
 
 .logo {
-    display: inline;
-    padding: 20px;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .logo-container {
@@ -37,8 +39,10 @@ body {
 }
 
 .text-body {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: "Lato", sans-serif;
+    text-align: center;
 }
 
 .typed-cursor{
@@ -154,10 +158,6 @@ body {
     display: inline;
 }
 
-.pf-group {
-
-}
-
 .portfolio-break {
     font-size: 2em;
     padding-bottom: 10px;
@@ -185,4 +185,37 @@ body {
 
 .footer {
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 650px) {
+
+    .portfolio {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .title-text {
+        text-align: right;
+
+        float: right;
+        position: relative;
+        right: 20px;
+        line-height: 100px;
+        font-size: .7em;
+    }
+
+    .row {
+        width: 100%;
+
+        margin: auto;
+    }
+
+    .tab-pane {
+
+        padding: 10px;
+    }
+
+    .tab-content {
+        padding: 10px;
+    }
 }
