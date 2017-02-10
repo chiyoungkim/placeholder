@@ -182,3 +182,7 @@ body {
 .contact-link:hover {
     color: #ffd42a;
 }
+
+.footer {
+    padding-bottom: 10px;
+}
