@@ -6,8 +6,6 @@ body {
 }
 
 .logo {
-    height: 100%;
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -188,7 +186,10 @@ body {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
+    .logo {
+        height: 100%;
+        width: 100%;
+    }
     .portfolio {
         max-width: 80%;
         max-height: 80%;
