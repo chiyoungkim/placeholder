@@ -37,9 +37,9 @@
                 <div class="row">
                     <div class="pf-panel">
                         <div href="#pf-section-1" data-toggle="collapse" class="portfolio-break">
-                            What I'm Working On
+                            <strong>What I'm Working On</strong>
                         </div>
-                        <div id="pf-section-1" class="panel-collapse collapse in">
+                        <div id="pf-section-1" class="panel-collapse collapse">
                             <div class="pf-panel pf-sub">
                                 <a href="#pf1-1" data-toggle="collapse">
                                     <div>
@@ -103,9 +103,9 @@
                     </div>
                     <div class="pf-panel">
                         <div href="#pf-section-2" data-toggle="collapse" class="portfolio-break">
-                            What I've Worked On
+                            <strong>What I've Worked On</strong>
                         </div>
-                        <div id="pf-section-2" class="panel-collapse collapse in">
+                        <div id="pf-section-2" class="panel-collapse collapse">
                             <div class="pf-panel pf-sub">
                                 <a href="#pf2-1" data-toggle="collapse">
                                     <div>
@@ -346,37 +346,7 @@
         <script src="assets/js/jquery-1.11.1.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/typed.js"></script>
-        <script>
-            $(function(){
-                $("#typed").typed({
-                    strings: ["Chiyoung <strong>Kim</strong>"],
-                    typeSpeed: 30,
-                    callback: function(){
-                        return elem.siblings('.typed-cursor').remove();
-                    }
-                });
-            });
-            function shift(){
-                $(".head-wrap").addClass("shift-text");
-                terminalHeight();
-            }
-
-            function terminalHeight(){
-                var termHeight = $(".terminal-height");
-                var value = termHeight.text();
-                value = parseInt(value);
-                setTimeout(function(){
-                    if (value > 10){
-                        value = value-1;
-                        this.txtValue = value.toString();
-                        termHeight.text(this.txtValue);
-                        self.terminalHeight();
-                    }
-                    else{
-                        clearTimeout();
-                    }
-                }, 10);
-            }
-        </script>
+        <script src="assets/js/typed-content.js"></script>
+        <script src="assets/js/collapsibles.js"></script>
     </body>
 </html>

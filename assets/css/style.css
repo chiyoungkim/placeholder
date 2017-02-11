@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); /* FREE GOOGLE FONT */
 
@@ -125,6 +126,20 @@ body {
     text-align: right;
 }
 
+.portfolio-break {
+    font-size: 2em;
+    padding-bottom: 10px;
+
+    background-color: #ffeeaa;
+
+    text-align: center;
+
+    height: 50px;
+    line-height: 50px;
+
+    font-family: "Lato", sans-serif;
+}
+
 .pf-panel {
     background-color: white;
 
@@ -154,18 +169,6 @@ body {
 .pf-content {
     color: black;
     display: inline;
-}
-
-.portfolio-break {
-    font-size: 2em;
-    padding-bottom: 10px;
-
-    background-color: #ffeeaa;
-
-    text-align: center;
-
-    height: 50px;
-    line-height: 50px;
 }
 
 .about {
