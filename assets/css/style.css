@@ -226,7 +226,22 @@ body {
 
 @media only screen and (min-width : 1500px) {
     .nav-pills {
-        width: 50%;
+        width: 60%;
         margin: auto;
+    }
+
+    .row {
+        width: 100%;
+
+        margin: auto;
+    }
+
+    .tab-pane {
+
+        padding: 10px;
+    }
+
+    .tab-content {
+        padding: 10px;
     }
 }
