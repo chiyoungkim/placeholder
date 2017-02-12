@@ -1,15 +1,13 @@
 /**
  * Created by chiyo on 2/10/2017.
  */
-$(document).load(function () {
-    $(function () {
-        $("#typed").typed({
-            strings: ["Chiyoung <strong>Kim</strong>"],
-            typeSpeed: 30,
-            callback: function () {
-                return elem.siblings('.typed-cursor').remove();
-            }
-        });
+$(function () {
+    $("#typed").typed({
+        strings: ["Chiyoung <strong>Kim</strong>"],
+        typeSpeed: 30,
+        callback: function () {
+            return elem.siblings('.typed-cursor').remove();
+        }
     });
 });
 
