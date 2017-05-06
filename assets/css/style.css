@@ -138,6 +138,7 @@ body {
     line-height: 50px;
 
     font-family: "Roboto Condensed", sans-serif;
+    position: relative;
 }
 
 .pf-panel {
@@ -188,7 +189,31 @@ body {
     padding-bottom: 10px;
 }
 
+.open-all {
+    position: absolute;
+    right: 0%;
+    padding-right: .3em;
+    padding-left: .3em;
+    background-color: #ffd42a;
+    display: inline-block;
+}
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+    .portfolio-break {
+        font-size: 1.4em;
+        padding-bottom: 10px;
+
+        background-color: #ffeeaa;
+
+        text-align: center;
+
+        height: 50px;
+        line-height: 50px;
+
+        font-family: "Roboto Condensed", sans-serif;
+        position: relative;
+    }
+
     .logo {
         height: 100%;
         width: 100%;
