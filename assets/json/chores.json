@@ -1,8 +1,20 @@
-{
-  "date": "06/12/2017",
-  "finances": "natalie",
-  "cooking": "chiyoung",
-  "cleaning": "andrea",
-  "social": "vincent",
-  "trash": "vincent"
-}
+[
+{"Cooking": "Natalie",
+ "Cleaning": "Natalie",
+ "Social": "Natalie",
+ "Date": "06/21/2017",
+ "Trash": "Natalie",
+ "Finances": "Natalie"},
+ {"Cooking": "Andrea",
+ "Cleaning": "Chiyoung",
+ "Social": "Andrea",
+ "Date": "06/19/2017",
+ "Trash": "Natalie",
+ "Finances": "Vincent"},
+ {"Cooking": "Andrea",
+ "Cleaning": "Chiyoung",
+ "Social": "Andrea",
+ "Date": "06/20/2017",
+ "Trash": "Natalie",
+ "Finances": "Vincent"}
+]
