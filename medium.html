@@ -1,0 +1,19 @@
+---
+layout: default
+title: Medium
+---
+
+<h1 class="fancyheader">Medium Articles</h1>
+{% for e in site.external_feed %}
+    <h2>{{ e.title }}</h2>
+    <p>{{ e.feed_content }}</p>
+  {% endfor %}
+<section class="special">
+  <ul class="actions">
+    <li>
+      <a href="{{ site.baseurl }}{{ e.url }}" class="button {% cycle '', 'alt'%}">
+        Read More
+      </a>
+    </li>
+  </ul>
+</section>
