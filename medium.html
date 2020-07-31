@@ -4,16 +4,14 @@ title: Medium
 ---
 
 <h1 class="fancyheader">Medium Articles</h1>
-{% for e in site.external_feed %}
-    <h2>{{ e.title }}</h2>
-    <p>{{ e.feed_content }}</p>
-  {% endfor %}
-<section class="special">
-  <ul class="actions">
-    <li>
-      <a href="{{ site.baseurl }}{{ e.url }}" class="button {% cycle '', 'alt'%}">
-        Read More
-      </a>
+<br>
+
+<ul class="medium-list">
+  {% for article in site.medium_posts %}
+    <li class="medium-el">
+      <a href={{ article.permalink }} class="medium-link">{{ article.title }}</a>
+      <p>{{ article.teaser }}</p>
     </li>
-  </ul>
-</section>
+    <br>
+  {% endfor %}
+</ul>

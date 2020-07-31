@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-  padding: 5% 20% 5% 20%;
+  padding: 5% 10% 5% calc(10% + 20px);
 }
 
 .fancytitle {
@@ -32,7 +32,7 @@ body {
 }
 
 .fancyheader {
-  font-family: "Cormorant Garamond";
+  font-family: "DM Serif Display";
 }
 
 a {
@@ -49,13 +49,13 @@ nav {
   position: fixed;
   margin: 0 auto;
   top: 0;
-  width: 60%;
+  width: 80%;
   font-size: 1.5em;
   font-family: "DM Serif Display";
 }
 
 .nav-content {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 10% 0% 10%;
 }
 
 nav a {
@@ -65,6 +65,11 @@ nav a {
   text-align: center;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+.inactive-nav:hover {
+  background-color: $champagne;
+  transition: 0.5s;
 }
 
 .current-nav {
@@ -78,4 +83,17 @@ nav a {
   float: right;
   position: relative;
   padding: 5%;
+}
+
+.medium-list {
+  list-style-type: none;
+}
+
+.medium-el a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.medium-el p {
+  padding-left: 5%;
 }

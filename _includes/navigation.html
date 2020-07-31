@@ -1,7 +1,7 @@
 <nav>
   <a>Chiyoung Kim</a>
   {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav" {% endif %}>
+  <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav"{% else %}class="inactive-nav"{% endif %}>
     {{ item.name }}
   </a>
   {% endfor %}
