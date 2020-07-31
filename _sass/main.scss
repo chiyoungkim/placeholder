@@ -1,19 +1,68 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Palanquin); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=DM+Serif+Display); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Mulish); /* FREE GOOGLE FONT */
 
-
-/*
-darker: #ffd42a
-lighter: #ffeeaa
-*/
+$seaweed:   #087E8B; /* turquoise */
+$sizzle:    #FF5A5F; /* red */
+$jet:       #3C3C3C; /* black */
+$eggshell:  #F4F1DE; /* white */
+$lavender:  #C1839F; /* purple */
+$tcotta:    #E07A5F; /* orange red */
+$indep:     #3D405B; /* blue */
+$sheen:     #81B29A; /* green */
+$champagne: #F2CC8F; /* yellow */
 
 body {
-    background-color: #202020;
-    color: #101010;
-    font-family: "Lato";
+    background-color: $jet;
+    color: $eggshell;
+    font-family: "Mulish";
 }
 
-.current {
-  color: green;
+.content {
+  padding: 5% 20% 5% 20%;
+}
+
+.fancytitle {
+  font-family: "DM Serif Display";
+}
+
+a {
+  color: $champagne;
+}
+
+i {
+  color: $eggshell;
+}
+
+nav {
+  background-color: $eggshell;
+  overflow: hidden;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  width: 60%;
+  font-size: 1.5em;
+  font-family: "DM Serif Display";
+}
+
+.nav-content {
+  padding: 0% 20% 0% 20%;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: $indep;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.current-nav {
+  background-color: $tcotta;
+  color: $eggshell;
 }

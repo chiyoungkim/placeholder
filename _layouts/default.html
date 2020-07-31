@@ -4,9 +4,18 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/animations.css">
+    <link rel="stylesheet" href="/assets/css/ionicons.css">
+    {%if page.title != "Home" %}
+      <link rel="stylesheet" href="/assets/css/{{ page.title }}.css">
+    {% endif %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="nav-content">
+      {% include navigation.html %}
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
   </body>
 </html>
