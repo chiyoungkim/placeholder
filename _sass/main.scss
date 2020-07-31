@@ -5,6 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=DM+Serif+Display); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Mulish); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Cormorant+Garamond); /* FREE GOOGLE FONT */
 
 $seaweed:   #087E8B; /* turquoise */
 $sizzle:    #FF5A5F; /* red */
@@ -28,6 +29,10 @@ body {
 
 .fancytitle {
   font-family: "DM Serif Display";
+}
+
+.fancyheader {
+  font-family: "Cormorant Garamond";
 }
 
 a {
