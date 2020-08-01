@@ -4,8 +4,17 @@
 @import url(http://fonts.googleapis.com/css?family=Palanquin); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=DM+Serif+Display); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Mulish); /* FREE GOOGLE FONT */
 @import url(http://fonts.googleapis.com/css?family=Cormorant+Garamond); /* FREE GOOGLE FONT */
+
+@font-face {
+  font-family: "Mulish";
+  src: url("/assets/fonts/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mulish Bold";
+  src: url("/assets/fonts/Mulish-Bold.ttf");
+}
 
 $seaweed:   #087E8B; /* turquoise */
 $sizzle:    #FF5A5F; /* red */
@@ -46,6 +55,10 @@ footer {
 
 .fancyheader {
   font-family: "DM Serif Display";
+}
+
+.emphasize {
+  font-family: "Mulish Bold";
 }
 
 a {
@@ -98,6 +111,10 @@ nav a {
   float: right;
   position: relative;
   padding: 5%;
+}
+
+.table-icon {
+  text-align: center;
 }
 
 .medium-list {
