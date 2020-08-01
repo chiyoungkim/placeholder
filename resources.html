@@ -5,3 +5,15 @@ title: Resources
 
 <h1 class="fancyheader">Resources</h1>
 <br>
+
+<ul class="resource-list">
+  {% for resource in site.resources %}
+    <li class="resource-el">
+      <a class="resource-link">{{ resource.title }}</a>
+      <span class="resource-text">{{ resource.content }}</span>
+      <a href={{ site.url }}{{ resource.permalink }} class="resource-doc">{{ resource.name }}</a>
+    </li>
+    <br>
+    <br>
+  {% endfor %}
+</ul>
