@@ -1,0 +1,30 @@
+---
+layout: default
+title: Misc
+---
+
+<h1 class="fancyheader">Miscellaneous</h1>
+
+<label for="css-theme">Choose a theme:</label>
+
+<select name="css-theme" id="css-theme">
+  <option value="default">Default</option>
+  <option value="fancy">Fancy</option>
+  <option value="logo">Logo</option>
+  <option value="light">Light</option>
+</select>
+<button id="theme-update" type="button">Update Theme</button>
+
+<script>
+  function setSelectedIndex(s, v) {
+    for ( var i = 0; i < s.options.length; i++ ) {
+      if ( s.options[i].text == v ) {
+        s.options[i].selected = true;
+          return;
+      }
+    }
+  }
+
+  let currentMode = document.documentElement.getAttribute("data-theme");
+  setSelectedIndex(document.getElementById("css-theme"),currentMode[0].toUpperCase() + currentMode.substring(1));
+</script>

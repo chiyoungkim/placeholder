@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
 - name: Medium
   link: /medium.html
 - name: Resources
   link: /resources.html
+- name: Misc
+  link: /misc.html

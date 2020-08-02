@@ -2,14 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <title>{{ page.title }}</title>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?">
     <link rel="manifest" href="/assets/img/site.webmanifest?">
+
+    <script src="/assets/js/theme_load.js"></script>
+    <script src="/assets/js/jquery-1.11.1.js"></script>
+
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/animations.css">
     <link rel="stylesheet" href="/assets/css/ionicons.css">
+
     {%if page.title != "Home" %}
       <link rel="stylesheet" href="/assets/css/{{ page.title }}.css">
     {% endif %}
@@ -19,10 +26,13 @@
       {% include navigation.html %}
     </div>
     <div class="content">
-      {{ content }}
+      <div class="content-box">
+        {{ content }}
+      </div>
     </div>
     <footer>
       &copy; Copyright {{ 'now' | date: "%Y" }}, Chiyoung Kim
     </footer>
   </body>
+  <script src="/assets/js/css_theme.js"></script>
 </html>

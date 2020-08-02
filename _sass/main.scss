@@ -26,9 +26,62 @@ $indep:     #3D405B; /* blue */
 $sheen:     #81B29A; /* green */
 $champagne: #F2CC8F; /* yellow */
 
+html, html[data-theme="default"] {
+  --main-background-color: #3C3C3C; //jet
+  --main-text-color: #F4F1DE; //eggshell
+  --main-link-color: #F2CC8F; //champagne
+  --main-nav-color: #F4F1DE; //eggshell
+  --main-nav-text: #3D405B; //indep
+  --inactive-nav-hover: #F2CC8F; //champagne
+  --active-nav-color: #E07A5F; //tcotta
+  --active-nav-text: #F4F1DE; //eggshell
+  background-color: var(--main-background-color);
+}
+
+html[data-theme="light"] {
+  --main-background-color: #F4F1DE; //eggshell
+  --main-text-color: #3C3C3C; //jet
+  --main-link-color: #3D405B; //indep
+  --main-nav-color: #F2CC8F; //champagne
+  --main-nav-text: #3D405B; //indep
+  --inactive-nav-hover: #F4F1DE; //eggshell
+  --active-nav-color: #E07A5F; //tcotta
+  --active-nav-text: #F4F1DE; //eggshell
+  background-color: var(--main-background-color);
+}
+
+html[data-theme="fancy"] {
+  --main-background-color: #F4F1DE; //eggshell
+  --main-text-color: #3C3C3C; //jet
+  --main-link-color: #3D405B; //indep
+  --main-nav-color: #F2CC8F; //champagne
+  --main-nav-text: #3D405B; //indep
+  --inactive-nav-hover: #F4F1DE; //eggshell
+  --active-nav-color: #E07A5F; //tcotta
+  --active-nav-text: #F4F1DE; //eggshell
+  background: repeating-linear-gradient(
+    45deg,
+    #F4F1DE,
+    #F4F1DE 20px,
+    #F2CC8F 20px,
+    #F2CC8F 40px
+  );
+}
+
+html[data-theme="logo"] {
+  --main-background-color: white;
+  --main-text-color: #3C3C3C; //jet
+  --main-link-color: #3D405B; //indep
+  --main-nav-color: #F2CC8F; //champagne
+  --main-nav-text: #3D405B; //indep
+  --inactive-nav-hover: #F4F1DE; //eggshell
+  --active-nav-color: #E07A5F; //tcotta
+  --active-nav-text: #F4F1DE; //eggshell
+  background: url(/assets/img/favicon.png);
+}
+
 body {
-  background-color: $jet;
-  color: $eggshell;
+  color: var(--main-text-color);
   font-family: "Mulish";
   min-height: 100vh;
   margin: 0;
@@ -37,16 +90,25 @@ body {
 }
 
 footer {
+  background-color: var(--main-background-color);
+  width: 80%;
+  margin: auto;
   font-size: 0.5em;
-  padding-right: 10%;
   margin-bottom: 1em;
   text-align: right;
   flex: 0 1 auto;
 }
 
 .content {
-  padding: 5% 10% 5% calc(10% + 20px);
+  background-color: var(--main-background-color);
+  width: 80%;
+  margin: auto;
+  padding: 5% 0% 5% 0%;
   flex: 1;
+}
+
+.content-box {
+  padding: 0 0 0 20px;
 }
 
 .fancytitle {
@@ -62,15 +124,15 @@ footer {
 }
 
 a {
-  color: $champagne;
+  color: var(--main-link-color);
 }
 
 i {
-  color: $eggshell;
+  color: var(--main-text-color);
 }
 
 nav {
-  background-color: $eggshell;
+  background-color: var(--main-nav-color);
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -87,21 +149,21 @@ nav {
 
 nav a {
   float: left;
-  color: $indep;
+  color: var(--main-nav-text);
   text-align: center;
   padding: 10px 20px;
   text-decoration: none;
 }
 
 .inactive-nav:hover {
-  background-color: $champagne;
+  background-color: var(--inactive-nav-hover);
   border-radius: 0px 0px 0.25em 0.25em;
   transition: 0.5s;
 }
 
 .current-nav {
-  background-color: $tcotta;
-  color: $eggshell;
+  background-color: var(--active-nav-color);
+  color: var(--active-nav-text);
   border-radius: 0px 0px 0.25em 0.25em;
 }
 
@@ -151,4 +213,8 @@ nav a {
 .resource-text {
   display: block;
   padding-left:2%
+}
+
+button {
+  font-family: "Mulish";
 }
