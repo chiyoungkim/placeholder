@@ -1,10 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Lato); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Palanquin); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=DM+Serif+Display); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Abril+Fatface); /* FREE GOOGLE FONT */
-@import url(http://fonts.googleapis.com/css?family=Cormorant+Garamond); /* FREE GOOGLE FONT */
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/assets/fonts/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("/assets/fonts/DMSerifDisplay-Regular.ttf");
+}
 
 @font-face {
   font-family: "Mulish";
