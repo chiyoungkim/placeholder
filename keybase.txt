@@ -1,0 +1,2 @@
+layout: none
+permalink: .well-known/pki-validation/C709E85990F618475C267503CBBF702A.txt
