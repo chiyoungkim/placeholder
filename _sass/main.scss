@@ -63,10 +63,14 @@ html[data-theme="fancy"] {
   --active-nav-text: #F4F1DE; //eggshell
   background: repeating-linear-gradient(
     45deg,
-    #F4F1DE,
-    #F4F1DE 20px,
-    #F2CC8F 20px,
-    #F2CC8F 40px
+    #3D405B,
+    #3D405B 20px,
+    #FF5A5F 20px,
+    #FF5A5F 40px,
+    #81B29A 40px,
+    #81B29A 60px,
+    #E07A5F 60px,
+    #E07A5F 80px
   );
 }
 
@@ -131,6 +135,16 @@ a {
 
 i {
   color: var(--main-text-color);
+}
+
+select {
+  font-family: "Mulish";
+  background-color: $eggshell;
+  border: 1px solid $jet;
+  border-radius: 0.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 2em;
 }
 
 nav {
@@ -218,5 +232,12 @@ nav a {
 }
 
 button {
-  font-family: "Mulish";
+  font-family: "Mulish Bold";
+  background-color: $sheen;
+  color: $eggshell;
+  border: 1px solid $jet;
+  border-radius: 0.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 2em;
 }
